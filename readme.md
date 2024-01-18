@@ -20,7 +20,7 @@ This project converts a Cobalt Strike profile to a functional mod_rewrite `.htac
 
 Please do not look at my ugly regex code for adding havoc profile support. Thanks.
 ```
-python3 havoc2nginx.py -i /tmp/profile.yaotl -c http://127.0.0.1:30001 -r http://internet-server.lan -H redirc2 -o nginx.conf.redir
+python3 havoc2nginx.py -i /tmp/profile.yaotl -c http://127.0.0.1:30001 -r http://internet-server.lan -H redirc2
 ```
 
 ## Quick start
