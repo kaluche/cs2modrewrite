@@ -16,6 +16,13 @@ This project converts a Cobalt Strike profile to a functional mod_rewrite `.htac
 - HTTP or HTTPS proxying to the Cobalt Strike teamserver
 - HTTP 302 Redirection to a Legitimate Site for Non-Matching Requests
 
+## Fork note
+
+Please do not look at my ugly regex code for adding havoc profile support. Thanks.
+```
+python3 havoc2nginx.py -i /tmp/profile.yaotl -c http://127.0.0.1:30001 -r http://internet-server.lan -H redirc2 -o nginx.conf.redir
+```
+
 ## Quick start
 
 The havex.profile example is included for a quick test.
